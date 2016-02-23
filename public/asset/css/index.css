@@ -1,0 +1,96 @@
+html, body {
+    min-height: 0;
+    width:100%;     
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: url(../image/bg.png) repeat;
+} 
+.fill {
+    background-image: url(../image/bg.png);
+}
+
+.fill, iframe, #images .fotorama img { 
+    width:100%;
+    height:100%;
+    background-color: #eee;
+}
+
+#main {
+    position: relative;
+}
+
+#main .qrcode {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+#main > a {
+    margin: 0 auto;
+}
+
+#main h2 {
+    text-align: center;
+}
+
+.links {
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;
+    width: 560px;
+    top:10%;
+}
+    .links > a {
+        width: 200px;
+        height:200px;
+        display: block;
+        float: left;
+        text-decoration: none;
+        font-family: Arial;
+        margin: 40px;
+    }
+        .links > a img{
+            width:100%;
+            height: auto;
+        }
+
+.client .links {
+    position: static;
+    margin: 0;
+    width: 240px;
+}
+    .client .links > a {
+        height: 80px;
+        width: 80px;
+        margin: 5px;
+    }
+
+.slides > * {
+    position: relative;
+}
+
+.homebtn {
+    position: absolute;
+    right:20px;
+    top:40px;
+}
+
+.links > a.hide{
+    display: none;
+}
+
+.roundlogo {
+    border-radius : 20px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}

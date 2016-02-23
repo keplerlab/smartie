@@ -1,0 +1,8 @@
+node_modules
+traindata
+server/build
+server/buildxcode
+server/data
+bin
+.*
+!/.gitignore
